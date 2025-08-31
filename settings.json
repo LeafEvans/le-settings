@@ -67,7 +67,7 @@
   "leetcode.hint.commandShortcut": false,
   "leetcode.hint.commentDescription": false,
 
-  // ==================== Web 开发 ====================
+  // ==================== Web 开发 ===f=================
   "css.validate": false,
   "scss.validate": false,
   "less.validate": false,
@@ -89,7 +89,6 @@
   "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "[typescriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
   "[vue]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[python]": { "editor.defaultFormatter": "charliermarsh.ruff" },
   "[xml]": { "editor.defaultFormatter": "redhat.vscode-xml" },
   "[dockercompose]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
 
