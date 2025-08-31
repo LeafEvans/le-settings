@@ -1,0 +1,98 @@
+{
+  // ==================== 编辑器设置 ====================
+  "editor.fontFamily": "Maple Mono NF CN",
+  "editor.fontLigatures": true,
+  "editor.inlayHints.fontFamily": "Maple Mono NF CN",
+  "editor.codeLensFontFamily": "Maple Mono NF CN",
+  "editor.inlineSuggest.fontFamily": "Maple Mono NF CN",
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.minimap.renderCharacters": false,
+  "editor.rulers": [80, 120],
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.suggest.snippetsPreventQuickSuggestions": false,
+
+  // ==================== 工作台设置 ====================
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.colorTheme": "Tokyo Night Storm",
+  "workbench.editor.enablePreview": false,
+  "workbench.startupEditor": "none",
+  "workbench.tree.indent": 16,
+  "breadcrumbs.enabled": true,
+  "workbench.editor.empty.hint": "hidden",
+
+  // ==================== 终端设置 ====================
+  "terminal.integrated.fontFamily": "Maple Mono NF CN",
+  "terminal.integrated.fontSize": 17,
+  "terminal.integrated.mouseWheelZoom": true,
+  "terminal.integrated.inheritEnv": false,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+
+  // ==================== 文件管理 ====================
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "files.insertFinalNewline": true,
+  "files.associations": {
+    "*.json": "jsonc"
+  },
+  "explorer.confirmDelete": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.maxComputationTime": 0,
+
+  // ==================== Git 版本控制 ====================
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.mergeEditor": true,
+  "git.openRepositoryInParentFolders": "always",
+
+  // ==================== GitHub Copilot ====================
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "yaml": true
+  },
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "chat.editing.confirmEditRequestRemoval": false,
+
+  // ==================== LeetCode 刷题 ====================
+  "leetcode.endpoint": "leetcode-cn",
+  "leetcode.workspaceFolder": "/home/leafevans/.leetcode",
+  "leetcode.defaultLanguage": "cpp",
+  "leetcode.hint.configWebviewMarkdown": false,
+  "leetcode.hint.commandShortcut": false,
+  "leetcode.hint.commentDescription": false,
+
+  // ==================== Web 开发 ====================
+  "css.validate": false,
+  "scss.validate": false,
+  "less.validate": false,
+  "css.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownAtRules": "ignore",
+  "less.lint.unknownAtRules": "ignore",
+
+  // ==================== JavaScript/TypeScript 设置 ====================
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  // ==================== 语言格式化器 ====================
+  "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[css]": { "editor.defaultFormatter": "vscode.css-language-features" },
+  "[scss]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[javascriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[typescriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[vue]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[python]": { "editor.defaultFormatter": "charliermarsh.ruff" },
+  "[xml]": { "editor.defaultFormatter": "redhat.vscode-xml" },
+  "[dockercompose]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+
+  // ==================== 隐私 / 遥测 ====================
+  "redhat.telemetry.enabled": true
+}
